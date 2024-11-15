@@ -1,30 +1,48 @@
-# Programsko inženjerstvo
-
-> Ime projekta u naslovu ima cilj opisati namjenu projekta te pomoći u podizanju početnog interesa za projekt prezentirajući osnovnu svrhu projekta.
-> Isključivo ovisi o Vama!
-> 
-> Naravno, nijedan predložak nije idealan za sve projekte jer su potrebe i ciljevi različiti. Ne bojte se naglasiti Vaš cilj u ovoj početnoj stranici projekta, podržat ćemo ga bez obzira usredotočili se Vi više na tenologiju ili marketing.
-> 
-> Zašto ovaj dokument? Samo manji dio timova je do sada propoznao potrebu (a i meni je lakše pratiti Vaš rad).  
+# Programsko inženjerstvo - TicketSwapper
 
 # Opis projekta
 Ovaj projekt je reultat timskog rada u sklopu projeknog zadatka kolegija [Programsko inženjerstvo](https://www.fer.unizg.hr/predmet/proinz) na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. 
 
 Kratko opisati cilj Vašeg projekta. Vaša motivacija?  (Napomena: odgovor nije »Zato što je to bio zadatak i nismo imali ideje za drugo.«). Koji problem rješavate?
-> Obzirom da je ovo zadani projekt navedite i što želite/jeste novo  naučili.
 
-> Dobro izrađen opis omogućuje vam da pokažete svoj rad drugim programerima, kao i potencijalnim poslodavcima. Ne samo da prvi dojam na stranici opisa često razlikuje dobar projekt od lošeg projekta već i predstavlja dobru praksu koju morate savladati.
+Današnji korisnici često unaprijed kupuju ulaznice za razne događaje poput koncerata, kazališnih predstava, sportskih utakmica itd. No, kada ne mogu prisustvovati događaju zbog nepredviđenih okolnosti, često traže načine kako da prodaju ili zamijene svoje ulaznice, što može biti dosta stresno. Trenutačno rješenje navedenog problema su društvene mreže ili oglasne platforme. Takva rješenja često su neučinkovita, dugotrajna i nesigurna što može imati negativne posljedice za korisnika.
+
+Cilj projekta „TicketSwapper“ je olakšati ovaj proces stvaranjem sigurne i učinkovite platforme za razmjenu i prodaju ulaznica. Naš sustav omogućiti će jednostavno pretraživanje i objavljivanje oglasa te povezivanje korisnika koji žele razmijeniti ulaznice jedan-na-jedan ili kroz lančanu razmjenu, ako je u pitanju više korisnika.
 
 # Funkcijski zahtjevi
-> Navedite ključne zahtjeve Vašeg projekta.
+
+<h2> 2.2 Tablica funkcionalnih zahtjeva:
+
+| ID zahtjeva | Opis | Prioritet | Izvor | Kriteriji prihvaćanja |
+|----|----------|----------|----------|----------|
+| F-001 | Sustav omogućuje prijavu korisniku s pomoću vjerodajnica vanjskih identiteta | Visok | Zahtjev dionika | Korisnik se može prijaviti koristeći vanjski identitet (Google OAuth). |
+| F-002 | Sustav omogućuje korisnicima pregled dostupnih događaja i ulaznica prema kriterijima (datum, lokacija, vrsta) | Visok | Zahtjev dionika | Korisnik može filtrirati događaje prema navedenim kriterijima. |
+| F-003 | Sustav omogućuje korisnicima kupovinu i prodaju ulaznica za specifične događaje. | Visok | Zahtjev dionika | Korisnik može kupiti ili prodati ulaznice za određeni događaj. |
+| F-004 | Sustav omogućuje korisnicima slanje i primanje obavijesti vezanih uz status događaja (promjena datuma, slobodne ulaznice). | Srednji | Povratne informacije korisnika | Korisnik prima obavijesti o promjenama statusa događaja ili ulaznica. |
+| F-005 | Sustav omogućuje razmjenu ulaznica među korisnicima. | Visok | Zahtjev dionika | Korisnik može ponuditi ili prihvatiti razmjenu ulaznica s drugim korisnicima. |
+| F-006 | Sustav omogućuje korisnicima pregled njihovih prethodnih kupovina i razmjena ulaznica. | Visok | Zahtjev dionika | Korisnik može vidjeti povijest svojih transakcija u sustavu. |
+| F-007 | Sustav omogućuje administratorima kontrolu nad sigurnosnim mjerama | Visok | Zahtjev dionika | Administrator može nadzirati oglase te uklanjati problematične oglase. |
+| F-008 | Sustav omogućuje implementaciju vanjskih sustava za dohvaćanje željenih podataka  | Visok | Zahtjev dionika | Korisniku se isporučuju željeni podaci. |
+| F-009 | Sustav omogućuje implementaciju baze podataka za pohranu podataka | Visok | Zahtjev dionika | Korisnikovi podaci pohranjuju se u bazu podataka. |
 
 
 # Tehnologije
 
-#Instalcija
+Frontend: React (JavaScript, HTML, CSS), Chakra UI
+
+Backend: Spring
+
+Baza podataka: PostgreSQL
+
+
 # Članovi tima 
-> Popis članova tima/linkovi/ glavni doprinos
->
+Pavle Ergović (voditelj), https://github.com/FERpavleerg</br>
+Matko Papić, https://github.com/matko-papic-fer</br>
+Roko Šabić, https://github.com/rs55056</br>
+Fran Krušelj, https://github.com/kruseljfran</br>
+Noa Deur, https://github.com/Noa-Deur</br>
+Mia Periš, https://github.com/miap18</br>
+Luka Stubičan, https://github.com/luka-stubican</br>
 
 # Kontribucije
 >Pravila ovise o organizaciji tima i su često izdvojena u CONTRIBUTING.md
