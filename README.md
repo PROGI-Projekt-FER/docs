@@ -3,8 +3,6 @@
 # Opis projekta
 Ovaj projekt je reultat timskog rada u sklopu projeknog zadatka kolegija [Programsko inženjerstvo](https://www.fer.unizg.hr/predmet/proinz) na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. 
 
-Kratko opisati cilj Vašeg projekta. Vaša motivacija?  (Napomena: odgovor nije »Zato što je to bio zadatak i nismo imali ideje za drugo.«). Koji problem rješavate?
-
 Današnji korisnici često unaprijed kupuju ulaznice za razne događaje poput koncerata, kazališnih predstava, sportskih utakmica itd. No, kada ne mogu prisustvovati događaju zbog nepredviđenih okolnosti, često traže načine kako da prodaju ili zamijene svoje ulaznice, što može biti dosta stresno. Trenutačno rješenje navedenog problema su društvene mreže ili oglasne platforme. Takva rješenja često su neučinkovita, dugotrajna i nesigurna što može imati negativne posljedice za korisnika.
 
 Cilj projekta „TicketSwapper“ je olakšati ovaj proces stvaranjem sigurne i učinkovite platforme za razmjenu i prodaju ulaznica. Naš sustav omogućiti će jednostavno pretraživanje i objavljivanje oglasa te povezivanje korisnika koji žele razmijeniti ulaznice jedan-na-jedan ili kroz lančanu razmjenu, ako je u pitanju više korisnika.
