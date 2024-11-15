@@ -1,7 +1,7 @@
 # Programsko inženjerstvo - TicketSwapper
 
 # Opis projekta
-Ovaj projekt je reultat timskog rada u sklopu projeknog zadatka kolegija [Programsko inženjerstvo](https://www.fer.unizg.hr/predmet/proinz) na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. 
+Ovaj projekt je rezultat timskog rada u sklopu projeknog zadatka kolegija [Programsko inženjerstvo](https://www.fer.unizg.hr/predmet/proinz) na Fakultetu elektrotehnike i računarstva Sveučilišta u Zagrebu. 
 
 Današnji korisnici često unaprijed kupuju ulaznice za razne događaje poput koncerata, kazališnih predstava, sportskih utakmica itd. No, kada ne mogu prisustvovati događaju zbog nepredviđenih okolnosti, često traže načine kako da prodaju ili zamijene svoje ulaznice, što može biti dosta stresno. Trenutačno rješenje navedenog problema su društvene mreže ili oglasne platforme. Takva rješenja često su neučinkovita, dugotrajna i nesigurna što može imati negativne posljedice za korisnika.
 
